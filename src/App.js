@@ -3,6 +3,13 @@ import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 
 class App extends Component {
+  // Setting this.state.cards to the cards json array
+  state = {
+    cards,
+    score: 0,
+    highscore: 0
+  };
+  
   render() {
     return (
       <Wrapper>
