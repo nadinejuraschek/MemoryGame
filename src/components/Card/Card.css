@@ -1,0 +1,29 @@
+.card {
+  background: #fff9f7;
+  border-radius: 2.5rem;
+  height: 12rem;
+  margin: 1rem;
+  position: relative;
+  width: 16rem;
+  text-align: left;
+}
+
+.card > .img-container {
+  padding: 2rem;
+  text-align: center;
+}
+.card > .img-container > img {
+  width: 70%
+}
+
+.card > .content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 15px;
+}
+
+
+
+
+
+
