@@ -1,6 +1,7 @@
 .footer,
     .footer a {
         color: #ffffff;
+        font-size: 0.75rem;
         text-align: center;
         text-decoration: none;
 }
