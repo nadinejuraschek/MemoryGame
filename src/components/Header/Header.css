@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   font-size: 2rem;
-  color: #ffb06f;
+  color: var(--orange);
   margin-bottom: 10px;
 }
 

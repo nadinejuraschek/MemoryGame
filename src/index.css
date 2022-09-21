@@ -1,3 +1,10 @@
+:root {
+  --dark-grey: #313131;
+  --off-white: #fff9f7;
+  --orange: #ffb06f;
+  --white: #ffffff;
+}
+
 * {
   box-sizing: border-box;
   font-family: sans-serif;

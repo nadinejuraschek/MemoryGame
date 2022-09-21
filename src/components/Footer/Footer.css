@@ -1,6 +1,6 @@
 .footer,
     .footer a {
-        color: #ffffff;
+        color: var(--white);
         font-size: 0.75rem;
         text-align: center;
         text-decoration: none;
@@ -11,5 +11,5 @@
 }
 
 .footer a:hover {
-    color: #ffb06f;
+    color: var(--orange);
 }

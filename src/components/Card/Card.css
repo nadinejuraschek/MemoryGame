@@ -1,5 +1,5 @@
 .card {
-  background: #fff9f7;
+  background: var(--off-white);
   border: none;
   border-radius: 2.5rem;
   height: 12rem;
@@ -11,7 +11,7 @@
 
 .card:hover {
   cursor: pointer;
-  outline: 8px solid #ffb06f;
+  outline: 8px solid var(--orange);
 }
 
 .card > .img-container {

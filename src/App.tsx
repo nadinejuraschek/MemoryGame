@@ -9,7 +9,7 @@ export const App = (): JSX.Element => {
   const [score, setScore] = useState(0);
   const [highscore, setHighscore] = useState(0);
 
-  const gameOver = (): boolean => {
+  const gameOver = (): boolean | void => {
     if (score > highscore) setHighscore(score);
 
     cards.forEach(card => {
@@ -22,10 +22,10 @@ export const App = (): JSX.Element => {
   };
 
   const clickCount = (id: number): boolean | void => {
-    cards.find((o, i) => {
-      if (o.id === id) {
-        if (cards[i].count === 0) {
-          cards[i].count = cards[i].count + 1;
+    cards.find((card, index): boolean | void => {
+      if (card.id === id) {
+        if (cards[index].count === 0) {
+          cards[index].count = cards[index].count + 1;
           setScore(score + 1);
           cards.sort(() => Math.random() - 0.5);
           return true;
