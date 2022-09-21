@@ -1,5 +1,6 @@
 import { Card } from './components/Card';
 import { Footer } from './components/Footer';
+import { Grid } from './components/Grid';
 import { Header } from './components/Header';
 import { Wrapper } from './components/Wrapper';
 import { cards } from './data/cards';
@@ -36,23 +37,10 @@ export const App = (): JSX.Element => {
     });
   };
 
-  const renderCards: Function = (): JSX.Element[] => {
-    return cards.map(
-      (card): JSX.Element => (
-        <Card
-          clickCount={clickCount}
-          id={card.id}
-          image={card.image}
-          key={card.id}
-        />
-      )
-    );
-  };
-
   return (
     <Wrapper>
       <Header score={score} highscore={highscore} />
-      {renderCards()}
+      <Grid clickCount={clickCount} />
       <Footer />
     </Wrapper>
   );

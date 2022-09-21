@@ -2,11 +2,13 @@
   background: var(--off-white);
   border: none;
   border-radius: 2.5rem;
-  height: 12rem;
   margin: 1rem;
-  position: relative;
-  width: 16rem;
   text-align: left;
+
+  position: relative;
+
+  height: 12rem;
+  width: 16rem;
 }
 
 .card:hover {
@@ -19,13 +21,13 @@
   text-align: center;
 }
 .card > .img-container > img {
-  width: 70%
+  width: 70%;
 }
 
 .card > .content {
+  font-size: 15px;
   padding-left: 1rem;
   padding-right: 1rem;
-  font-size: 15px;
 }
 
 

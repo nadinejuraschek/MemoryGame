@@ -1,19 +1,19 @@
 .header {
-  width: 100%;
-  font-size: 2rem;
   color: var(--orange);
+  font-size: 2rem;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .title {
+  float: left;
   font-family: 'Luckiest Guy', Arial, sans-serif;
   font-size: 3rem;
-  float: left;
 }
 
 .scores {
-  font-size: 1.5rem;
   float: right;
+  font-size: 1.5rem;
 }
 
 .space {
