@@ -1,3 +1,4 @@
+import { Card } from './types';
 import apple from "../assets/apple.png";
 import bananas from "../assets/bananas.png";
 import bellPepper from "../assets/bell-pepper.png";
@@ -11,7 +12,7 @@ import passionFruit from "../assets/passion-fruit.png";
 import tomato from "../assets/tomato.png";
 import watermelon from "../assets/watermelon.png";
 
-export const cards = [
+export const cards: Card[] = [
   {
     "id": 1,
     "image": apple,
