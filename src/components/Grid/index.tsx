@@ -1,3 +1,5 @@
+import './Grid.css';
+
 import { Card } from '../Card';
 import { GridProps } from './types';
 import { cards } from '../../data/cards';
@@ -16,5 +18,5 @@ export const Grid = ({ clickCount }: GridProps): JSX.Element => {
     );
   };
 
-  return <>{renderCards()}</>;
+  return <div className='grid'>{renderCards()}</div>;
 };

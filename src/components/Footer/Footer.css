@@ -1,13 +1,26 @@
 .footer,
     .footer a {
         color: var(--white);
-        font-size: 0.75rem;
         text-align: center;
         text-decoration: none;
 }
 
 .footer {
+    font-size: 1.2rem;
     width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer p:first-child {
+    margin-bottom: 0.5rem;
 }
 
 .footer a:hover {

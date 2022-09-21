@@ -1,13 +1,10 @@
 .wrapper {
   background: var(--dark-grey);
   overflow: auto;
-  padding: 20px;
-  padding-top: 50px;
 
   height: 100%;
 
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-content: flex-start;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 6rem calc(100vh - 12rem) 6rem;
 }

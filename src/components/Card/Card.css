@@ -2,13 +2,16 @@
   background: var(--off-white);
   border: none;
   border-radius: 2.5rem;
-  margin: 1rem;
   text-align: left;
 
   position: relative;
 
-  height: 12rem;
-  width: 16rem;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card:hover {
@@ -16,22 +19,8 @@
   outline: 8px solid var(--orange);
 }
 
-.card > .img-container {
-  padding: 2rem;
-  text-align: center;
-}
-.card > .img-container > img {
+.card img {
+  object-fit: contain;
+  height: 70%;
   width: 70%;
 }
-
-.card > .content {
-  font-size: 15px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-
-
-
-
-

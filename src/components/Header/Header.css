@@ -1,21 +1,53 @@
 .header {
   color: var(--orange);
-  font-size: 2rem;
-  margin-bottom: 10px;
+  padding: 0 4rem;
   width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .title {
-  float: left;
   font-family: 'Luckiest Guy', Arial, sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
+  line-height: 1;
+  margin: 0;
+  padding-top: 1rem;
 }
 
 .scores {
-  float: right;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .space {
-  margin-right: 2rem;
+  margin-right: 1.6rem;
+}
+
+@media screen and (min-width: 500px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .scores {
+    font-size: 1.6rem;
+  }
+
+  .space {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .scores {
+    font-size: 2.4rem;
+  }
+
+  .space {
+    margin-right: 3rem;
+  }
 }
