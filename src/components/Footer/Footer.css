@@ -9,3 +9,7 @@
 .footer {
     width: 100%;
 }
+
+.footer a:hover {
+    color: #ffb06f;
+}

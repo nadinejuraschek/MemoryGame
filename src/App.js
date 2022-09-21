@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+
 import Card from "./components/Card";
-import Wrapper from "./components/Wrapper";
-import Header from "./components/Header";
 import Footer from "./components/Footer";
-import cards from "./cards.json";
+import Header from "./components/Header";
+import Wrapper from "./components/Wrapper";
+import {cards} from "./data/cards.js";
 
 class App extends Component {
 
@@ -39,7 +40,7 @@ class App extends Component {
             console.log(this.state.score);
           });
           this.state.cards.sort(() => Math.random() - 0.5)
-          return true; 
+          return true;
         } else {
           this.gameOver();
         }

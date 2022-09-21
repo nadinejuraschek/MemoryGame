@@ -1,5 +1,6 @@
-import React from "react";
 import "./Header.css";
+
+import React from "react";
 
 const Header = props => (
   <div className="header">

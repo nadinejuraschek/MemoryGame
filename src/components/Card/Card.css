@@ -1,11 +1,17 @@
 .card {
   background: #fff9f7;
+  border: none;
   border-radius: 2.5rem;
   height: 12rem;
   margin: 1rem;
   position: relative;
   width: 16rem;
   text-align: left;
+}
+
+.card:hover {
+  cursor: pointer;
+  outline: 8px solid #ffb06f;
 }
 
 .card > .img-container {
