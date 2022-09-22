@@ -1,6 +1,16 @@
 .header {
   color: var(--orange);
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
   padding: 0 4rem;
+
+  max-width: 140rem;
   width: 100%;
 
   display: flex;
@@ -8,7 +18,7 @@
   justify-content: space-between;
 }
 
-.title {
+.header-title {
   font-family: 'Luckiest Guy', Arial, sans-serif;
   font-size: 2rem;
   line-height: 1;

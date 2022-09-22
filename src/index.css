@@ -2,6 +2,8 @@
   --dark-grey: #313131;
   --off-white: #fff9f7;
   --orange: #ffb06f;
+  --overlay: #00000099;
+  --shadow: #00000040;
   --white: #ffffff;
 }
 
@@ -15,4 +17,20 @@ html, body, #app {
   height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+button {
+  background-color: var(--orange);
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  padding: 1.2rem 2.4rem;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0.1rem 0.1rem var(--shadow);
+  transform: translateX(-0.2rem) translateY(-0.2rem);
 }

@@ -1,12 +1,13 @@
-import { Card } from './components/Card';
 import { Footer } from './components/Footer';
 import { Grid } from './components/Grid';
 import { Header } from './components/Header';
+import { Modal } from './components/Modal';
 import { Wrapper } from './components/Wrapper';
 import { cards } from './data/cards';
 import { useState } from 'react';
 
 export const App = (): JSX.Element => {
+  const [showModal, setShowModal] = useState(false);
   const [score, setScore] = useState(0);
   const [highscore, setHighscore] = useState(0);
 
@@ -17,8 +18,7 @@ export const App = (): JSX.Element => {
       card.count = 0;
     });
 
-    alert(`Game Over :( \nScore: ${score}`);
-    setScore(0);
+    setShowModal(true);
     return true;
   };
 
@@ -37,11 +37,25 @@ export const App = (): JSX.Element => {
     });
   };
 
+  const handleClose = (): void => {
+    setShowModal(false);
+    setScore(0);
+  };
+
   return (
     <Wrapper>
       <Header score={score} highscore={highscore} />
       <Grid clickCount={clickCount} />
       <Footer />
+      <>
+        {showModal && (
+          <Modal
+            handleClose={handleClose}
+            highscore={highscore}
+            score={score}
+          />
+        )}
+      </>
     </Wrapper>
   );
 };
