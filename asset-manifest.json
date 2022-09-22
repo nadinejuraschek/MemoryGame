@@ -1,6 +1,25 @@
 {
-  "main.css": "static/css/main.8465f412.css",
-  "main.css.map": "static/css/main.8465f412.css.map",
-  "main.js": "static/js/main.9e6516d2.js",
-  "main.js.map": "static/js/main.9e6516d2.js.map"
+  "files": {
+    "main.css": "/MemoryGame/static/css/main.99ced84e.css",
+    "main.js": "/MemoryGame/static/js/main.c582565b.js",
+    "static/media/passion-fruit.png": "/MemoryGame/static/media/passion-fruit.cdfc1b8a12a8fe096103.png",
+    "static/media/food.png": "/MemoryGame/static/media/food.d4f51796ee8b9b966919.png",
+    "static/media/donut.png": "/MemoryGame/static/media/donut.8a4dcb7d0538123b1830.png",
+    "static/media/bananas.png": "/MemoryGame/static/media/bananas.5c6ec729f1ab33c04c66.png",
+    "static/media/broccoli.png": "/MemoryGame/static/media/broccoli.85e6ede49b31129af314.png",
+    "static/media/carrot.png": "/MemoryGame/static/media/carrot.b585a429de418aededdf.png",
+    "static/media/bell-pepper.png": "/MemoryGame/static/media/bell-pepper.8d8b8dca073244129de4.png",
+    "static/media/watermelon.png": "/MemoryGame/static/media/watermelon.f79d2201c47bc188ac63.png",
+    "static/media/tomato.png": "/MemoryGame/static/media/tomato.b72bc53d7bf9cd320089.png",
+    "static/media/hamburger.png": "/MemoryGame/static/media/hamburger.6e4ad84549d0bb0f0ac9.png",
+    "static/media/apple.png": "/MemoryGame/static/media/apple.50c0af4eb0e87d37ce58.png",
+    "static/media/orange.png": "/MemoryGame/static/media/orange.2fbc24af7b6552482f50.png",
+    "index.html": "/MemoryGame/index.html",
+    "main.99ced84e.css.map": "/MemoryGame/static/css/main.99ced84e.css.map",
+    "main.c582565b.js.map": "/MemoryGame/static/js/main.c582565b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99ced84e.css",
+    "static/js/main.c582565b.js"
+  ]
 }
